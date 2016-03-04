@@ -38,17 +38,18 @@ h1 {
 
   #div1.menu, #div2.menu, #div3.menu {
 
-    border: 2px solid black;
+    border: 10px solid white;
 
 
   }
 
+p {
+  border: 1px solid black;
+}
 
-  #chicken {
-
+  #chicken {   
+    
     background-color: azure;
-
-
 
   }
   #beef {
@@ -79,7 +80,7 @@ h1 {
 
       width: 33.33%;
       float:left;            
-      border: 1px solid green;
+     
 
     }
 
@@ -93,14 +94,14 @@ h1 {
 
       width: 50%;
       float:left;            
-      border: 1px solid green;
+     
     }
 
     #div3 {
 
       width: 100%;
       float:left;            
-      border: 1px solid green;
+ 
     }
 
   }
