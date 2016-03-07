@@ -69,6 +69,18 @@ h2 {
   font-size: 1.8em;
 }
 
+#nav-list #li1 {
+	background-color: white;
+}
+
+#nav-list #li2 {
+	background-color: red;
+}
+
+#nav-list #li3 {
+	background-color: pink;
+}
+
 #phone {
   margin-top: 5px;
 }
@@ -89,6 +101,8 @@ h2 {
   clear: both;
   margin-top: -30px;
 }
+
+
 /* END HEADER */
 
 
@@ -107,23 +121,47 @@ h2 {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 
+	#header-nav {
+  	visibility: hidden;
+  }
+  	.navbar-brand {
+
+  	visibility: visible;
+  }
+
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
-  #logo-img {
+  
+  #header-nav {
+  	visibility: hidden;
+  }
+  	.navbar-brand {
+
+  	visibility: visible;
+  }
+  /*#logo-img {
     background: url('../images/restaurant-logo_medium.png') no-repeat;
     width: 100px;
     height: 100px;
-    margin: 5px 5px 5px 0;
-  }
+    margin: 5px 5px 5px 0;*/
+  
   /* End Header */
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
 
+	#header-nav {
+  	visibility: hidden;
+  }
+
+  .navbar-brand {
+
+  	visibility: visible;
+  }
 }
 
 /********** Extra small devices only **********/
@@ -170,9 +208,9 @@ h2 {
   }
   /* End Header */
 
-  /* Home Page */
-  .container .jumbotron {
+  /*/* Home Page */
+  /*.container .jumbotron {
     margin-top: 30px;
     padding: 0;
-  }
+  }*/
 }
