@@ -121,9 +121,9 @@ h2 {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 
-	#header-nav {
+	/*#header-nav {
   	visibility: hidden;
-  }
+  }*/
   	.navbar-brand {
 
   	visibility: visible;
@@ -135,9 +135,9 @@ h2 {
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   
-  #header-nav {
+  /*#header-nav {
   	visibility: hidden;
-  }
+  }*/
   	.navbar-brand {
 
   	visibility: visible;
@@ -154,14 +154,14 @@ h2 {
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
 
-	#header-nav {
+	/*#header-nav {
   	visibility: hidden;
-  }
+  }*/
 
-  .navbar-brand {
+  /*.navbar-brand {
 
   	visibility: visible;
-  }
+  }*/
 }
 
 /********** Extra small devices only **********/
