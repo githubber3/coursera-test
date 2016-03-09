@@ -81,7 +81,7 @@ h2 {
 	background-color: pink;
 }
 
-#phone {
+/*#phone {
   margin-top: 5px;
 }
 #phone a { /* Phone number */
@@ -92,7 +92,7 @@ h2 {
   color: #557c3e;
   text-align: right;
   padding-right: 15px;
-}
+}*/
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
@@ -111,12 +111,12 @@ h2 {
 	margin:15px;
 	padding: 15px;
 	height: 1000px;
-	background-color:lightgrey;
+	background-color:grey;
 }
 
-.ourmenu {
+/*.ourmenu {
 	background-color: white;
-}
+}*/
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
