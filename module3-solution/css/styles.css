@@ -15,12 +15,12 @@ body {
   border: 0;
 }
 
-#logo-img {
+/*#logo-img {
   background: url('../images/restaurant-logo_large.png') no-repeat;
   width: 150px;
   height: 150px;
   margin: 10px 15px 10px 0;
-}
+}*/
 
 .navbar-brand {
   padding-top: 25px;
@@ -81,18 +81,18 @@ h2 {
 	background-color: pink;
 }
 
-/*#phone {
+/*/*#phone {
   margin-top: 5px;
 }
 #phone a { /* Phone number */
-  text-align: right;
-  padding-bottom: 0;
-}
-#phone div { /* We Deliver */
-  color: #557c3e;
-  text-align: right;
-  padding-right: 15px;
+  /*text-align: right;
+  padding-bottom: 0;*/
 }*/
+/*#phone div { /* We Deliver */
+  /*color: #557c3e;
+  text-align: right;
+  padding-right: 15px;*/
+}**/
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
@@ -114,9 +114,15 @@ h2 {
 	background-color:grey;
 }
 
-/*.ourmenu {
-	background-color: white;
-}*/
+div#div1 {
+	padding-right:15px;
+}
+div#div2 {
+	padding-right:15px;
+}
+div#div3 {
+	padding-right:15px;
+}
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
